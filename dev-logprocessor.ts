@@ -1,6 +1,8 @@
 class LogProcessor {
 	constructor() {
 		console.log('asdfas');
+		console.log('asdfas');
+		console.log('asdfas');
 	}
 }
 

@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "follow": "^1.1.0",
+    "moment": "^2.24.0",
+    "pouchdb": "^7.1.1",
+    "pouchdb-upsert": "^2.2.0"
+  }
 }
