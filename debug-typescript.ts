@@ -13,21 +13,26 @@ class TestTypescript {
 		// 	console.log(key, this.orgs[key]);
 		// }
 		let sensor = {
-			_id: 1,
+			_id: '1',
 			ref: 'Atea Sensor',
 			type: 'sensor'
 		};
 		this.createDeviceWatcher(sensor);
 		sensor = {
-			_id: 2,
+			_id: '2',
 			ref: 'Gture Sensor',
 			type: 'sensor'
 		};
 		this.createDeviceWatcher(sensor);
 		setInterval(() => console.log(this.deviceWatchers), 3000);
+		setTimeout(() => {
+			clearInterval(this.deviceWatchers.get('2').handle);
+			this.deviceWatchers.set('2', "Habib")
+		}, 5000);
 	}
 
 	protected createDeviceWatcher(device) {
+		console.log('device._id', device._id);
         this.deviceWatchers.set(device._id, {
                 ref: device.ref,
                 type: device.type,
