@@ -1,4 +1,4 @@
-class TestTypescript {
+class Logprocessor {
 	orgs: any;
 	deviceWatchers: Map<string, any>;
 	constructor() {
@@ -45,4 +45,20 @@ class TestTypescript {
     }
 }
 
-let testTypescript = new TestTypescript();
+// let testTypescript = new Logprocessor();
+
+class Typescript {
+	constructor() {
+		let a1 = {
+			name: 'Umar'
+		}
+		let a2 = a1;
+		let a3 = a1.name;
+		a1.name = 'asdf';
+		console.log(a1);
+		console.log(a2);
+		console.log(a3);
+	}
+}
+
+let typescript = new Typescript();
