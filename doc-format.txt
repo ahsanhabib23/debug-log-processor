@@ -1,0 +1,84 @@
+// Org deleted
+{ 
+   "seq":"248-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUklMiTV____PyuDObEzFyjAnpyYmmhhbI5NAx5j8liAJEMDkPoPNS0fbJqFmZlRWrIRNn1ZANFTMcs",
+   "id":"3b64605288030f196d73ad8d0d00384c",
+   "changes":[ 
+      { 
+         "rev":"4-1abc4dbd9b3852dc1207f108cfb6ad13"
+      }
+   ],
+   "deleted":true,
+   "doc":{ 
+      "_id":"3b64605288030f196d73ad8d0d00384c",
+      "_rev":"4-1abc4dbd9b3852dc1207f108cfb6ad13",
+      "_deleted":true
+   }
+}
+
+// Org created. Note: "rev": "1-.." is for created.
+{ 
+   "seq":"245-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUklMiTV____PyuDObEtFyjAnpyYmmhhbI5NAx5j8liAJEMDkPoPNS0fbJqFmZlRWrIRNn1ZANADMcg",
+   "id":"3b64605288030f196d73ad8d0d00384c",
+   "changes":[ 
+      { 
+         "rev":"1-c052d64958682bcac1e28f0e08a8d0bd"
+      }
+   ],
+   "doc":{ 
+      "_id":"3b64605288030f196d73ad8d0d00384c",
+      "_rev":"1-c052d64958682bcac1e28f0e08a8d0bd",
+      "license_key":"N5G7R5YG5C",
+      "type":"org",
+      "dist_id":"2f9dcc6622908ffd0bea91bc66ce8e02",
+      "logdb":"",
+      "loghost":"",
+      "loguser":"",
+      "logpass":"",
+      "protocol":"",
+      "logport":"",
+      "title":"",
+      "org_name":"O1",
+      "org_ref":"OO1",
+      "contact_name":"h1"
+   }
+}
+
+// Org list. When do the fetching from -adm table ...
+{ 
+   total_rows:1,
+   offset:0,
+   rows:[ 
+      { 
+         id:'a1cb0c50bc5dfca61ca747a8da002e1d',
+         key:null,
+         value:null,
+         doc:[ Object ]
+      }
+   ]
+}
+// doc:[ Object ] =>
+[ 
+   { 
+      "id":"a1cb0c50bc5dfca61ca747a8da002e1d",
+      "key":null,
+      "value":null,
+      "doc":{ 
+         "_id":"a1cb0c50bc5dfca61ca747a8da002e1d",
+         "_rev":"2-f9837c231db1221a37a6cc3f3c9342fe",
+         "license_key":"3YX3W827K1",
+         "type":"org",
+         "dist_id":"2f9dcc6622908ffd0bea91bc66ce8e02",
+         "logdb":"",
+         "loghost":"",
+         "loguser":"",
+         "logpass":"",
+         "protocol":"",
+         "logport":"",
+         "title":"",
+         "org_name":"Test23",
+         "org_ref":"Test23",
+         "contact_name":"Habib"
+      }
+   }
+]
+
