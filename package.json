@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "follow": "^1.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "pouchdb": "^7.1.1",
     "pouchdb-upsert": "^2.2.0"
   },
